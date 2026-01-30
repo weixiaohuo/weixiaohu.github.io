@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>【公司名】｜一句话说明你们做什么</title>
-  <meta name="description" content="【公司名】为【目标客户】提供【核心服务】。这里放一句更具体的价值主张。" />
+  <title>【西安火焰蓝消防有限公司】｜消防员培训找火焰蓝
+  <meta name="description" content="西安火焰蓝消防有限公司提供消防员培训、消防就业指导等服务，面向18-28岁高中及以上学历人群，帮助学员系统学习并对接就业。" />
   <meta name="robots" content="index,follow" />
   <meta name="theme-color" content="#111111" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="【公司名】｜一句话说明你们做什么" />
-  <meta property="og:description" content="【公司名】为【目标客户】提供【核心服务】。" />
+  <meta property="og:title" content="西安火焰蓝消防有限公司｜消防员培训找火焰蓝" />
+  <meta property="og:description" content="消防员培训、消防就业指导。面向18-28岁高中及以上学历人群。" />
   <meta property="og:type" content="website" />
 
   <!-- 结构化数据：百度/谷歌都吃这一口 -->
@@ -18,13 +18,13 @@
   {
     "@context":"https://schema.org",
     "@type":"Organization",
-    "name":"【公司名】",
+    "name":"西安火焰蓝消防有限公司",
     "url":"https://你的用户名.github.io",
-    "description":"【公司名】为【目标客户】提供【核心服务】。",
+    "description":"消防员培训、消防就业指导。面向18-28岁高中及以上学历人群。",
     "contactPoint":[{
       "@type":"ContactPoint",
       "contactType":"customer service",
-      "telephone":"【电话可空】",
+      "telephone":"18182611800",
       "email":"【邮箱可空】"
     }]
   }
@@ -33,7 +33,7 @@
   <style>
     :root{
       --bg:#0b0c10; --card:#111218; --text:#eaeaf0; --muted:#a7a7b3;
-      --line:rgba(255,255,255,.10); --accent:#7c5cff; --accent2:#19c37d;
+      --line:rgba(255,255,255,.10); --accent:#2563eb; --accent2:#0ea5e9;
     }
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:radial-gradient(1200px 600px at 20% 10%, rgba(124,92,255,.25), transparent 60%),radial-gradient(800px 500px at 70% 20%, rgba(25,195,125,.18), transparent 55%),var(--bg);color:var(--text);line-height:1.6}
@@ -85,9 +85,12 @@
 
     <div class="hero">
       <div class="tag">可被搜索 · 轻量 · 官方感</div>
-      <h1>【一句话定位】<br>让客户一眼知道你能解决什么问题</h1>
+      <h1>消防员培训找火焰蓝
+培训 + 就业指导 一条路走通</h1>
       <div class="sub">
-        写法模板：我们为【目标客户】提供【核心服务】，用【差异化优势】带来【可量化结果】。<br>
+        我们为18-28岁、高中及以上学历人群提供消防员培训与消防就业指导
+从入门到上岗，课程体系清晰，训练安排可执行
+想走消防这条路，先把路径搞明白，再把能力练扎实<br>
         （先写人话，不要写“赋能/生态/闭环/引领”。那是给PPT看的。）
       </div>
       <div class="cta">
@@ -98,16 +101,16 @@
 
     <div class="grid" id="services">
       <div class="card">
-        <h3>服务一：【服务名称】</h3>
-        <p>用一句话解释服务内容和价值。</p>
+        <h3>服务一：消防员培训</h3>
+        <p>系统课程 + 实训训练，按阶段推进，帮助学员掌握必备技能与应对要点。</p>
       </div>
       <div class="card">
-        <h3>服务二：【服务名称】</h3>
-        <p>说明交付物或解决的问题（越具体越好）。</p>
+        <h3>服务二：消防就业指导</h3>
+        <p>从方向选择、资料准备到面试要点与训练规划，明确路径，减少走弯路。。</p>
       </div>
       <div class="card">
-        <h3>服务三：【服务名称】</h3>
-        <p>写你们的“差异点”，别写空话。</p>
+        <h3>服务三：学习规划与答疑支持</h3>
+        <p>根据个人基础与目标制定学习计划，关键节点提醒与答疑，避免学一阵就断档。</p>
       </div>
     </div>
 
@@ -116,12 +119,16 @@
       <p class="sec-desc">没有案例也可以先放“服务流程”和“交付清单”，别空着。</p>
       <div class="list">
         <div class="item">
-          <strong>案例A：【项目名称】</strong>
-          <span>背景：…｜动作：…｜结果：…（先占位，后面再补真实数据）</span>
+          <strong>案例A：培训流程（可复制照做）</strong>
+          <span>背景：新手想入行但路径不清｜动作：评估基础 → 制定计划 → 分阶段训练 → 模拟考核 → 上岗准备｜结果：学习节奏明确，训练更高效，少走弯路（先占位，后面再补真实数据）</span>
         </div>
         <div class="item">
-          <strong>案例B：【项目名称】</strong>
-          <span>你可以放客户评价截图的文字版（别只放图）。</span>
+          <strong>案例B：就业指导交付清单</strong>
+          <span>方向定位建议
+训练计划表（按周）
+资料准备清单
+面试要点与常见问题梳理
+注意事项与时间节点提醒。</span>
         </div>
       </div>
     </div>
@@ -132,11 +139,11 @@
       <div class="list">
         <div class="item">
           <strong>我们是谁</strong>
-          <span>【团队/公司简介】（别写太长，100-200字就行）</span>
+          <span>西安火焰蓝消防有限公司，专注消防员培训与就业指导。我们更重视训练的可执行性与结果导向，让学员知道每天该练什么、怎么练、练到什么标准。（别写太长，100-200字就行）</span>
         </div>
         <div class="item">
           <strong>我们怎么做</strong>
-          <span>【方法/流程】例如：需求确认 → 方案 → 执行 → 复盘 → 交付</span>
+          <span>评估基础与目标 → 制定训练计划 → 分阶段训练与复盘 → 就业指导与准备 → 上岗支持与跟进</span>
         </div>
       </div>
     </div>
@@ -147,11 +154,11 @@
       <div class="list">
         <div class="item">
           <strong>微信</strong>
-          <span>【你的微信号】</span>
+          <span>18182611800</span>
         </div>
         <div class="item">
           <strong>邮箱 / 电话</strong>
-          <span>【邮箱】｜【电话】</span>
+          <span>846873860@qq.com｜18182611800</span>
         </div>
       </div>
     </div>
