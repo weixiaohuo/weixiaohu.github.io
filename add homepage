@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>【公司名】｜一句话说明你们做什么</title>
+  <meta name="description" content="【公司名】为【目标客户】提供【核心服务】。这里放一句更具体的价值主张。" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#111111" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="【公司名】｜一句话说明你们做什么" />
+  <meta property="og:description" content="【公司名】为【目标客户】提供【核心服务】。" />
+  <meta property="og:type" content="website" />
+
+  <!-- 结构化数据：百度/谷歌都吃这一口 -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"【公司名】",
+    "url":"https://你的用户名.github.io",
+    "description":"【公司名】为【目标客户】提供【核心服务】。",
+    "contactPoint":[{
+      "@type":"ContactPoint",
+      "contactType":"customer service",
+      "telephone":"【电话可空】",
+      "email":"【邮箱可空】"
+    }]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#0b0c10; --card:#111218; --text:#eaeaf0; --muted:#a7a7b3;
+      --line:rgba(255,255,255,.10); --accent:#7c5cff; --accent2:#19c37d;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:radial-gradient(1200px 600px at 20% 10%, rgba(124,92,255,.25), transparent 60%),radial-gradient(800px 500px at 70% 20%, rgba(25,195,125,.18), transparent 55%),var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1040px;margin:0 auto;padding:24px}
+    .nav{display:flex;gap:18px;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{font-weight:800;letter-spacing:.5px}
+    .menu{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+    .menu a{padding:8px 10px;border:1px solid transparent;border-radius:10px}
+    .menu a:hover{border-color:var(--line);color:var(--text)}
+    .hero{padding:56px 0 22px}
+    .tag{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:13px;background:rgba(255,255,255,.03)}
+    h1{font-size:42px;line-height:1.1;margin:14px 0 10px}
+    .sub{max-width:720px;color:var(--muted);font-size:16px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.04);font-weight:650}
+    .btn.primary{border-color:rgba(124,92,255,.55);background:linear-gradient(180deg, rgba(124,92,255,.35), rgba(124,92,255,.12))}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin:22px 0 10px}
+    .card{grid-column:span 4;background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:18px;padding:16px}
+    .card h3{margin:0 0 6px;font-size:16px}
+    .card p{margin:0;color:var(--muted);font-size:14px}
+    .section{padding:28px 0}
+    .sec-title{font-size:20px;margin:0 0 10px}
+    .sec-desc{margin:0 0 14px;color:var(--muted)}
+    .list{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .item{grid-column:span 6;background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:18px;padding:16px}
+    .item strong{display:block;margin-bottom:6px}
+    .item span{color:var(--muted);font-size:14px}
+    .footer{padding:26px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:20px}
+    @media (max-width:900px){
+      h1{font-size:34px}
+      .card{grid-column:span 12}
+      .item{grid-column:span 12}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">【公司名】</div>
+      <div class="menu">
+        <a href="#services">服务</a>
+        <a href="#cases">案例</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="tag">可被搜索 · 轻量 · 官方感</div>
+      <h1>【一句话定位】<br>让客户一眼知道你能解决什么问题</h1>
+      <div class="sub">
+        写法模板：我们为【目标客户】提供【核心服务】，用【差异化优势】带来【可量化结果】。<br>
+        （先写人话，不要写“赋能/生态/闭环/引领”。那是给PPT看的。）
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="#contact">立即咨询</a>
+        <a class="btn" href="#cases">查看案例</a>
+      </div>
+    </div>
+
+    <div class="grid" id="services">
+      <div class="card">
+        <h3>服务一：【服务名称】</h3>
+        <p>用一句话解释服务内容和价值。</p>
+      </div>
+      <div class="card">
+        <h3>服务二：【服务名称】</h3>
+        <p>说明交付物或解决的问题（越具体越好）。</p>
+      </div>
+      <div class="card">
+        <h3>服务三：【服务名称】</h3>
+        <p>写你们的“差异点”，别写空话。</p>
+      </div>
+    </div>
+
+    <div class="section" id="cases">
+      <h2 class="sec-title">案例 / 作品</h2>
+      <p class="sec-desc">没有案例也可以先放“服务流程”和“交付清单”，别空着。</p>
+      <div class="list">
+        <div class="item">
+          <strong>案例A：【项目名称】</strong>
+          <span>背景：…｜动作：…｜结果：…（先占位，后面再补真实数据）</span>
+        </div>
+        <div class="item">
+          <strong>案例B：【项目名称】</strong>
+          <span>你可以放客户评价截图的文字版（别只放图）。</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="about">
+      <h2 class="sec-title">关于我们</h2>
+      <p class="sec-desc">三句话原则：你们是谁、擅长什么、怎么做事。</p>
+      <div class="list">
+        <div class="item">
+          <strong>我们是谁</strong>
+          <span>【团队/公司简介】（别写太长，100-200字就行）</span>
+        </div>
+        <div class="item">
+          <strong>我们怎么做</strong>
+          <span>【方法/流程】例如：需求确认 → 方案 → 执行 → 复盘 → 交付</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2 class="sec-title">联系</h2>
+      <p class="sec-desc">建议至少留两种联系方式：邮箱 + 微信（或电话）。</p>
+      <div class="list">
+        <div class="item">
+          <strong>微信</strong>
+          <span>【你的微信号】</span>
+        </div>
+        <div class="item">
+          <strong>邮箱 / 电话</strong>
+          <span>【邮箱】｜【电话】</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <span id="y"></span> 【公司名】. 保留所有权利。
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener("click",e=>{
+        const id=a.getAttribute("href");
+        const el=document.querySelector(id);
+        if(!el) return;
+        e.preventDefault();
+        el.scrollIntoView({behavior:"smooth",block:"start"});
+      });
+    });
+  </script>
+</body>
+</html>
